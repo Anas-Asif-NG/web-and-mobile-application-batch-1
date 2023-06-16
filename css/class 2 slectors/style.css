@@ -1,0 +1,66 @@
+/* Universal selector */
+
+/*
+
+* {
+    color:red;
+}
+
+*/
+
+/* Type selector */
+
+/*
+
+h2 , p{
+    color: aqua;
+} 
+
+*/
+
+/* class slector */
+
+/* h2.para{
+    color: red;
+}
+.para , .para2
+{
+color: blueviolet;
+
+color: brown;
+} */
+
+/* id selecctor */
+
+/*  
+#heading {
+    color: blueviolet;
+} */
+
+/* Child Selector */
+
+/* 
+li>b{
+    color: brown;
+} */
+
+
+/* Descendant Selector */
+/* 
+li .para #oli {
+    color: burlywood;
+} */
+
+/* Adjacent Sibling
+Selector */
+/* 
+h2+p{
+color: aqua;
+} */
+
+/* General Sibling
+Selector */
+
+h1~p{
+    color: brown;
+}
